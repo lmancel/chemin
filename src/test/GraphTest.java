@@ -6,6 +6,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class GraphTest {
     private Vertex lille = new Vertex("Lille");
@@ -58,10 +59,23 @@ public class GraphTest {
         clermont.connectTo(marseille, 474);
     }
 
+    public Vertex ville;
     @Test
     public void getDistanceForTwoAdjacentVertices() {
         Graph graph = new Graph(paris, lyon);
-
         assertEquals(graph.getDistance("Paris", "Lyon"), 465);
+    }
+
+    @Test
+      public void getVertexInTheGraph(){
+        Graph graph = new Graph (paris,lyon, marseille);
+        assertEquals(graph.getVertex("Marseille"),marseille);
+    }
+
+    @Test
+    public void VertexIsInTheGraph(){
+        Graph graph = new Graph (paris,lyon, marseille);
+        assertEquals(graph.graphContains("Marseille"), true);
+        assertEquals(graph.graphContains("Lille"), false);
     }
 }

@@ -25,11 +25,30 @@ public class Vertex {
         edges.add(new Edge(target, distance));
     }
 
+    public boolean isConnectedTo (Vertex target) {
+
+        for (Edge lien : this.getEdges()) {
+            if (lien.getTarget() == target) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public int getDistanceForTwoAdjacentVertices(Vertex target)  {
+
+        for (Edge lien : this.getEdges()) {
+            if (lien.getTarget() == target) {
+                return lien.getDistance();
+            }
+        }
+        return 0;
+    }
+
     @Override
     public String toString() {
         return "Vertex{" +
-                "name='" + name + '\'' +
-                ", edges=" + edges +
+                "name='" + name  +
                 '}';
     }
 }

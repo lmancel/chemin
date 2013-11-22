@@ -1,5 +1,6 @@
 package test;
 
+import main.Graph;
 import main.Vertex;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
@@ -11,6 +12,8 @@ public class VertexTest {
     private Vertex reims = new Vertex("Reims");
     private Vertex lyon = new Vertex("Lyon");
     private Vertex clermont = new Vertex("Clermont Ferrant");
+    private Vertex lille = new Vertex("Lille");
+
 
     @Test
     public void testGetName() throws Exception {
@@ -29,8 +32,30 @@ public class VertexTest {
 
         // Il doit surement exister une manière plus élégante de faire ce test
         // en vérifiant directement la présence du Edge dans la liste
-        assertEquals(paris.getEdges().get(1).getTarget(),clermont);
+
+        assertEquals(paris.getEdges().get(1).getTarget(), clermont);
         assertEquals(paris.getEdges().get(1).getDistance(),423);
 
+    }
+
+
+    @Test
+    public void testisConnectedTo() throws Exception {
+        paris.connectTo(lyon, 465);
+        paris.connectTo(clermont, 423);
+        reims.connectTo(lyon, 489);
+
+        assertEquals(paris.isConnectedTo(lyon),true);
+        assertEquals(paris.isConnectedTo(lille),false);
+    }
+
+    @Test
+    public void getDistanceForTwoAdjacentVertices() {
+        paris.connectTo(lyon, 465);
+        paris.connectTo(clermont, 423);
+        reims.connectTo(lyon, 489);
+
+        assertEquals(paris.getDistanceForTwoAdjacentVertices(lyon), 465);
+        assertEquals(paris.getDistanceForTwoAdjacentVertices(lille), 0);
     }
 }

@@ -78,4 +78,11 @@ public class GraphTest {
         assertEquals(graph.graphContains("Marseille"), true);
         assertEquals(graph.graphContains("Lille"), false);
     }
+
+    @Test
+    public void testGetDistance() {
+        Graph graph = new Graph (paris, lyon, marseille, lille, toulouse, montpellier);
+
+        assertEquals(graph.getDistance("Paris","Toulouse"), 1014);
+    }
 }

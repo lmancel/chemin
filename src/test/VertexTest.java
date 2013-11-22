@@ -61,7 +61,7 @@ public class VertexTest {
     }
 
     @Test
-    public void testisConnectedByOthers() {
+         public void testisConnectedByOthers() {
         paris.connectTo(lyon, 465);
         lyon.connectTo(reims, 465);
         reims.connectTo(nancy, 245);
@@ -69,5 +69,17 @@ public class VertexTest {
         assertEquals(paris.isConnectedByOthers(reims),true);
         assertEquals(paris.isConnectedByOthers(nancy),true);
         assertEquals(paris.isConnectedByOthers(lille),false);
+    }
+
+    @Test
+    public void testgetDistanceByOthers() {
+        paris.connectTo(lyon, 465);
+        lyon.connectTo(reims, 465);
+        reims.connectTo(nancy, 245);
+
+        assertEquals(paris.getDistanceByOther(lyon),465);
+        assertEquals(paris.getDistanceByOther(reims),930);
+        assertEquals(paris.getDistanceByOther(nancy),1175);
+        assertEquals(paris.getDistanceByOther(lille),0);
     }
 }

@@ -45,18 +45,6 @@ public class Graph {
         Vertex departure = this.getVertex(from);
         Vertex arrival = this.getVertex(to);
 
-        if (from == to) {
-            return 0;
-        }
-
-        if (this.graphContains(from) && this.graphContains(to) ) {
-
-            if (departure.isConnectedTo(arrival)) {
-                 return departure.getDistanceForTwoAdjacentVertices(arrival);
-            };
-        }
-
-    return 0;
+        return departure.getDistanceByOther(arrival);
     }
-
 }

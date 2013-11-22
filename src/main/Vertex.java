@@ -1,6 +1,7 @@
 package main;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Vertex {
@@ -62,39 +63,45 @@ public class Vertex {
         return false;
     }
 
-    /*public int getDistanceByOther(Vertex target) {
+    public int getDistanceByOther(Vertex target) {
 
         int distance = 0;
         List list_dist = new ArrayList();
+        List passedby = new ArrayList();
+        List way = new ArrayList();
+
+        way.add(this);
 
         if (this.isConnectedTo(target)){
-            distance += this.getDistanceForTwoAdjacentVertices(target);
+            distance +=this.getDistanceForTwoAdjacentVertices(target);
             return distance;
         }
         else {
             for (Edge liens : this.getEdges()) {
-                if (liens.getTarget().isConnectedTo(target)) {
-                    distance = this.getDistanceForTwoAdjacentVertices(liens.getTarget()) + liens.getTarget().getDistanceForTwoAdjacentVertices(target);
-                    list_dist.add(distance);
+                if (liens.getTarget().isConnectedByOthers(target)) {
+                    list_dist.add(liens.getDistance());
 
-                    return ;
                 }
-                else {
-                    distance += liens.getTarget().getDistanceByOther(target);
-                    return distance;
+                /*if (liens.getTarget().isConnectedTo(target)) {
+
+                    distance += this.getDistanceForTwoAdjacentVertices(liens.getTarget()) + liens.getTarget().getDistanceForTwoAdjacentVertices(target);
+                    list_dist.add(distance);
+                    return (Integer) Collections.min(list_dist);
+                } */
+
+                /*else */if (liens.getTarget().isConnectedByOthers(target)) {
+                    if (passedby.contains(this) == false) {
+                        passedby.add(this);
+                        distance += this.getDistanceForTwoAdjacentVertices(liens.getTarget()) + liens.getTarget().getDistanceByOther(target);
+                        return distance;
+                    }
                 }
             }
         }
         return 0;
     }
-         */
 
-    public int getDistance(Vertex arrival) {
 
-    for (Edge link : this.getEdges()) {
-        if link.getTarget() is connected
-    }
-}
 
     @Override
     public String toString() {

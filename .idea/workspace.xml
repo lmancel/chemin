@@ -3,20 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="0a77fb33-b8db-4264-9980-8ce4e1a83409" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Graph.java" afterPath="$PROJECT_DIR$/src/main/Graph.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/GraphTest.java" afterPath="$PROJECT_DIR$/src/test/GraphTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Vertex.java" afterPath="$PROJECT_DIR$/src/main/Vertex.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/VertexTest.java" afterPath="$PROJECT_DIR$/src/test/VertexTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="chemin.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/GraphTest.java" changelist="0a77fb33-b8db-4264-9980-8ce4e1a83409" time="1385125941847" ignored="false" />
     <file path="/fragment.java" changelist="0a77fb33-b8db-4264-9980-8ce4e1a83409" time="1385113435953" ignored="false" />
     <file path="/Dummy.txt" changelist="0a77fb33-b8db-4264-9980-8ce4e1a83409" time="1385113099564" ignored="false" />
-    <file path="/VertexTest.java" changelist="0a77fb33-b8db-4264-9980-8ce4e1a83409" time="1385128249633" ignored="false" />
+    <file path="/VertexTest.java" changelist="0a77fb33-b8db-4264-9980-8ce4e1a83409" time="1385130467753" ignored="false" />
     <file path="/EdgeTest.java" changelist="0a77fb33-b8db-4264-9980-8ce4e1a83409" time="1385114051321" ignored="false" />
-    <file path="/Vertex.java" changelist="0a77fb33-b8db-4264-9980-8ce4e1a83409" time="1385128116688" ignored="false" />
+    <file path="/Vertex.java" changelist="0a77fb33-b8db-4264-9980-8ce4e1a83409" time="1385133045357" ignored="false" />
     <file path="/Graph.java" changelist="0a77fb33-b8db-4264-9980-8ce4e1a83409" time="1385128297594" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="0a77fb33-b8db-4264-9980-8ce4e1a83409" time="1385132868702" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +79,7 @@
       <file leaf-file-name="Graph.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="30" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.0">
+            <state line="50" column="0" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,10 +87,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GraphTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="GraphTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/GraphTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="22" selection-start="1890" selection-end="1890" vertical-scroll-proportion="0.44256756">
+            <state line="14" column="4" selection-start="365" selection-end="408" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,10 +98,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Vertex.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Vertex.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/Vertex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="18" selection-start="979" selection-end="979" vertical-scroll-proportion="0.0">
+            <state line="94" column="40" selection-start="2427" selection-end="2427" vertical-scroll-proportion="0.6452703">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,7 +112,7 @@
       <file leaf-file-name="VertexTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/VertexTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="28" selection-start="1370" selection-end="1370" vertical-scroll-proportion="0.0">
+            <state line="63" column="26" selection-start="1737" selection-end="1760" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -162,10 +161,10 @@
         <option value="$PROJECT_DIR$/src/test/EdgeTest.java" />
         <option value="$PROJECT_DIR$/src/main/Edge.java" />
         <option value="$PROJECT_DIR$/../Calcul_chemin/src/main/Graph.java" />
-        <option value="$PROJECT_DIR$/src/test/GraphTest.java" />
-        <option value="$PROJECT_DIR$/src/main/Vertex.java" />
-        <option value="$PROJECT_DIR$/src/test/VertexTest.java" />
         <option value="$PROJECT_DIR$/src/main/Graph.java" />
+        <option value="$PROJECT_DIR$/src/test/GraphTest.java" />
+        <option value="$PROJECT_DIR$/src/test/VertexTest.java" />
+        <option value="$PROJECT_DIR$/src/main/Vertex.java" />
       </list>
     </option>
   </component>
@@ -295,35 +294,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GraphTest.getDistanceForTwoAdjacentVertices">
-    <configuration default="false" name="GraphTest.VertexIsInTheGraph" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="chemin" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.GraphTest" />
-      <option name="METHOD_NAME" value="VertexIsInTheGraph" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.VertexTest.testisConnectedByOthers">
     <configuration default="false" name="VertexTest.testisConnectedTo" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -436,6 +407,34 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="VertexTest.testisConnectedByOthers" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="chemin" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.VertexTest" />
+      <option name="METHOD_NAME" value="testisConnectedByOthers" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -528,19 +527,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.GraphTest.VertexIsInTheGraph" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.VertexTest.testisConnectedTo" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.VertexTest.testConnectTo" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.VertexTest.getDistanceForTwoAdjacentVertices" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.GraphTest.getDistanceForTwoAdjacentVertices" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.VertexTest.testisConnectedTo" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.VertexTest.testConnectTo" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.VertexTest.getDistanceForTwoAdjacentVertices" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.GraphTest.getDistanceForTwoAdjacentVertices" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.VertexTest.testisConnectedByOthers" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.GraphTest.getDistanceForTwoAdjacentVertices" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.VertexTest.getDistanceForTwoAdjacentVertices" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.VertexTest.testisConnectedTo" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.VertexTest.testConnectTo" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.GraphTest.VertexIsInTheGraph" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.VertexTest.testisConnectedByOthers" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.VertexTest.testisConnectedTo" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.GraphTest.getDistanceForTwoAdjacentVertices" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.VertexTest.getDistanceForTwoAdjacentVertices" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.VertexTest.testConnectTo" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -597,7 +596,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18472221" sideWeight="0.6904232" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30957684" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30957684" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -727,27 +726,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Vertex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="18" selection-start="979" selection-end="979" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/VertexTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="28" selection-start="1370" selection-end="1370" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="30" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.0">
+        <state line="50" column="0" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -756,7 +737,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/GraphTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="22" selection-start="1890" selection-end="1890" vertical-scroll-proportion="0.44256756">
+        <state line="14" column="4" selection-start="365" selection-end="408" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/VertexTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="26" selection-start="1737" selection-end="1760" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Vertex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="40" selection-start="2427" selection-end="2427" vertical-scroll-proportion="0.6452703">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

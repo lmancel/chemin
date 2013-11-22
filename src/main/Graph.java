@@ -49,7 +49,6 @@ public class Graph {
             return 0;
         }
 
-
         if (this.graphContains(from) && this.graphContains(to) ) {
 
             if (departure.isConnectedTo(arrival)) {

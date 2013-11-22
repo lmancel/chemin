@@ -13,6 +13,7 @@ public class VertexTest {
     private Vertex lyon = new Vertex("Lyon");
     private Vertex clermont = new Vertex("Clermont Ferrant");
     private Vertex lille = new Vertex("Lille");
+    private Vertex nancy = new Vertex("Nancy");
 
 
     @Test
@@ -57,5 +58,16 @@ public class VertexTest {
 
         assertEquals(paris.getDistanceForTwoAdjacentVertices(lyon), 465);
         assertEquals(paris.getDistanceForTwoAdjacentVertices(lille), 0);
+    }
+
+    @Test
+    public void testisConnectedByOthers() {
+        paris.connectTo(lyon, 465);
+        lyon.connectTo(reims, 465);
+        reims.connectTo(nancy, 245);
+
+        assertEquals(paris.isConnectedByOthers(reims),true);
+        assertEquals(paris.isConnectedByOthers(nancy),true);
+        assertEquals(paris.isConnectedByOthers(lille),false);
     }
 }

@@ -45,6 +45,57 @@ public class Vertex {
         return 0;
     }
 
+    public boolean isConnectedByOthers (Vertex target) {
+        if (this.isConnectedTo(target)){
+            return true;
+        }
+        else {
+            for (Edge liens : this.getEdges()) {
+                 if (liens.getTarget().isConnectedByOthers(target)) {
+                     return true;
+                 }
+                else {
+                     return false;
+                 }
+            }
+        }
+        return false;
+    }
+
+    /*public int getDistanceByOther(Vertex target) {
+
+        int distance = 0;
+        List list_dist = new ArrayList();
+
+        if (this.isConnectedTo(target)){
+            distance += this.getDistanceForTwoAdjacentVertices(target);
+            return distance;
+        }
+        else {
+            for (Edge liens : this.getEdges()) {
+                if (liens.getTarget().isConnectedTo(target)) {
+                    distance = this.getDistanceForTwoAdjacentVertices(liens.getTarget()) + liens.getTarget().getDistanceForTwoAdjacentVertices(target);
+                    list_dist.add(distance);
+
+                    return ;
+                }
+                else {
+                    distance += liens.getTarget().getDistanceByOther(target);
+                    return distance;
+                }
+            }
+        }
+        return 0;
+    }
+         */
+
+    public int getDistance(Vertex arrival) {
+
+    for (Edge link : this.getEdges()) {
+        if link.getTarget() is connected
+    }
+}
+
     @Override
     public String toString() {
         return "Vertex{" +

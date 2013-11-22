@@ -19,32 +19,30 @@ public class Graph {
     public Vertex getVertex(String city){
 
         Vertex town = null;
-
         for (Vertex ville : this.getVertices()) {
-            if (ville.getName() == city) {
+            if (ville.getName().equals(city)) {
                 town = ville;
             }
         }
         return town;
-        }
+    }
 
 
     public boolean graphContains(String city) {
 
         Vertex ville = this.getVertex(city);
 
-        if (ville != null)   {
-            return true;
-        }
-        else {
-            return false;
-        }
+        return ville != null;
     }
 
     public int getDistance(String from, String to) {
-        Vertex departure = this.getVertex(from);
-        Vertex arrival = this.getVertex(to);
-
-        return departure.getDistanceByOther(arrival);
+        if (this.graphContains(from) && this.graphContains(to)) {
+            Vertex departure = this.getVertex(from);
+            Vertex arrival = this.getVertex(to);
+            return departure.getDistanceByOther(arrival);
+        }
+        else {
+            return 0;
+        }
     }
 }

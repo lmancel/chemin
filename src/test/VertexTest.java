@@ -1,8 +1,9 @@
 package test;
 
-import main.Graph;
 import main.Vertex;
 import org.junit.Test;
+
+
 import static org.junit.Assert.assertEquals;
 
 
@@ -14,6 +15,8 @@ public class VertexTest {
     private Vertex clermont = new Vertex("Clermont Ferrant");
     private Vertex lille = new Vertex("Lille");
     private Vertex nancy = new Vertex("Nancy");
+    private Vertex marseille = new Vertex("Marseille");
+    private Vertex montpellier = new Vertex("Montpellier");
 
 
     @Test
@@ -53,8 +56,6 @@ public class VertexTest {
     @Test
     public void getDistanceForTwoAdjacentVertices() {
         paris.connectTo(lyon, 465);
-        paris.connectTo(clermont, 423);
-        reims.connectTo(lyon, 489);
 
         assertEquals(paris.getDistanceForTwoAdjacentVertices(lyon), 465);
         assertEquals(paris.getDistanceForTwoAdjacentVertices(lille), 0);
@@ -63,23 +64,27 @@ public class VertexTest {
     @Test
          public void testisConnectedByOthers() {
         paris.connectTo(lyon, 465);
-        lyon.connectTo(reims, 465);
-        reims.connectTo(nancy, 245);
+        lyon.connectTo(marseille, 313);
+        marseille.connectTo(montpellier, 169);
 
-        assertEquals(paris.isConnectedByOthers(reims),true);
-        assertEquals(paris.isConnectedByOthers(nancy),true);
+        assertEquals(paris.isConnectedByOthers(marseille),true);
+        assertEquals(paris.isConnectedByOthers(montpellier),true);
         assertEquals(paris.isConnectedByOthers(lille),false);
     }
 
     @Test
     public void testgetDistanceByOthers() {
         paris.connectTo(lyon, 465);
-        lyon.connectTo(reims, 465);
-        reims.connectTo(nancy, 245);
+        lyon.connectTo(montpellier, 304);
+        montpellier.connectTo(marseille, 169);
+        paris.connectTo(clermont, 423);
+        clermont.connectTo(montpellier, 333);
+        clermont.connectTo(marseille, 474);
+        lyon.connectTo(marseille, 313);
 
-        assertEquals(paris.getDistanceByOther(lyon),465);
-        assertEquals(paris.getDistanceByOther(reims),930);
-        assertEquals(paris.getDistanceByOther(nancy),1175);
+        assertEquals(paris.getDistanceByOther(lyon), 465);
+        assertEquals(paris.getDistanceByOther(marseille),778);
+        assertEquals(paris.getDistanceByOther(montpellier),756);
         assertEquals(paris.getDistanceByOther(lille),0);
     }
 }

@@ -17,12 +17,4 @@ public class Edge {
     public int getDistance() {
         return distance;
     }
-
-    @Override
-    public String toString() {
-        return "Edge{" +
-                "target=" + target +
-                ", distance=" + distance +
-                '}';
-    }
 }

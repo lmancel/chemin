@@ -2,21 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a77fb33-b8db-4264-9980-8ce4e1a83409" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Edge.java" afterPath="$PROJECT_DIR$/src/main/Edge.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Graph.java" afterPath="$PROJECT_DIR$/src/main/Graph.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/GraphTest.java" afterPath="$PROJECT_DIR$/src/test/GraphTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Vertex.java" afterPath="$PROJECT_DIR$/src/main/Vertex.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/VertexTest.java" afterPath="$PROJECT_DIR$/src/test/VertexTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="chemin.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/GraphTest.java" changelist="0a77fb33-b8db-4264-9980-8ce4e1a83409" time="1385136223532" ignored="false" />
-    <file path="/fragment.java" changelist="0a77fb33-b8db-4264-9980-8ce4e1a83409" time="1385113435953" ignored="false" />
-    <file path="/Dummy.txt" changelist="0a77fb33-b8db-4264-9980-8ce4e1a83409" time="1385113099564" ignored="false" />
-    <file path="/VertexTest.java" changelist="0a77fb33-b8db-4264-9980-8ce4e1a83409" time="1385137529929" ignored="false" />
+    <file path="/GraphTest.java" changelist="0a77fb33-b8db-4264-9980-8ce4e1a83409" time="1385153748193" ignored="false" />
+    <file path="/fragment.java" changelist="0a77fb33-b8db-4264-9980-8ce4e1a83409" time="1385154363536" ignored="false" />
+    <file path="/Dummy.txt" changelist="0a77fb33-b8db-4264-9980-8ce4e1a83409" time="1385154363536" ignored="false" />
+    <file path="/VertexTest.java" changelist="0a77fb33-b8db-4264-9980-8ce4e1a83409" time="1385155338016" ignored="false" />
     <file path="/EdgeTest.java" changelist="0a77fb33-b8db-4264-9980-8ce4e1a83409" time="1385114051321" ignored="false" />
-    <file path="/Vertex.java" changelist="0a77fb33-b8db-4264-9980-8ce4e1a83409" time="1385138464339" ignored="false" />
-    <file path="/Graph.java" changelist="0a77fb33-b8db-4264-9980-8ce4e1a83409" time="1385135797597" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="0a77fb33-b8db-4264-9980-8ce4e1a83409" time="1385137946281" ignored="false" />
+    <file path="/Vertex.java" changelist="0a77fb33-b8db-4264-9980-8ce4e1a83409" time="1385154489303" ignored="false" />
+    <file path="/Graph.java" changelist="0a77fb33-b8db-4264-9980-8ce4e1a83409" time="1385153592702" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +32,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -68,6 +68,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -80,10 +81,8 @@
       <file leaf-file-name="Graph.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="5" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="34" column="44" selection-start="725" selection-end="725" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,29 +90,27 @@
       <file leaf-file-name="GraphTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/GraphTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="21" selection-start="2479" selection-end="2479" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="57" column="0" selection-start="1736" selection-end="1825" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Vertex.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Vertex.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Vertex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="8" selection-start="1848" selection-end="1848" vertical-scroll-proportion="0.41722974">
+            <state line="84" column="5" selection-start="2214" selection-end="2214" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1523#1532#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VertexTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="VertexTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/VertexTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="36" selection-start="2233" selection-end="2233" vertical-scroll-proportion="0.0">
+            <state line="86" column="62" selection-start="2652" selection-end="2652" vertical-scroll-proportion="1.9604863">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,7 +121,7 @@
       <file leaf-file-name="Edge.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Edge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="40" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
+            <state line="18" column="5" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -133,10 +130,8 @@
       <file leaf-file-name="EdgeTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/EdgeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="8" column="18" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -160,20 +155,46 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/test/EdgeTest.java" />
-        <option value="$PROJECT_DIR$/src/main/Edge.java" />
         <option value="$PROJECT_DIR$/../Calcul_chemin/src/main/Graph.java" />
         <option value="$PROJECT_DIR$/src/main/Graph.java" />
         <option value="$PROJECT_DIR$/src/test/GraphTest.java" />
-        <option value="$PROJECT_DIR$/src/test/VertexTest.java" />
+        <option value="$PROJECT_DIR$/src/main/Edge.java" />
         <option value="$PROJECT_DIR$/src/main/Vertex.java" />
+        <option value="$PROJECT_DIR$/src/test/VertexTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
-    <option name="y" value="35" />
-    <option name="width" value="1486" />
-    <option name="height" value="1018" />
+    <option name="x" value="1420" />
+    <option name="y" value="-4" />
+    <option name="width" value="1867" />
+    <option name="height" value="1085" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Code maturity issues</id>
+          </State>
+          <State>
+            <id>Error handling</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugs</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -204,6 +225,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -260,7 +282,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -269,7 +290,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="project.propCompiler" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -284,6 +305,14 @@
     <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
   </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <PyConsoleSettings />
+    </option>
+    <option name="myDjangoConsoleState">
+      <PyConsoleSettings />
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="test" />
@@ -295,63 +324,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GraphTest.testGetDistance">
-    <configuration default="false" name="VertexTest.testisConnectedTo" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="chemin" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.VertexTest" />
-      <option name="METHOD_NAME" value="testisConnectedTo" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="VertexTest.testisConnectedByOthers" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="chemin" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.VertexTest" />
-      <option name="METHOD_NAME" value="testisConnectedByOthers" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.VertexTest">
     <configuration default="false" name="VertexTest.testgetDistanceByOthers" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -376,35 +349,13 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="GraphTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="chemin" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.GraphTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -421,6 +372,90 @@
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.GraphTest" />
       <option name="METHOD_NAME" value="testGetDistance" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="VertexTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="chemin" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.VertexTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="GraphTest.testEmptyGraph" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="chemin" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.GraphTest" />
+      <option name="METHOD_NAME" value="testEmptyGraph" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="VertexTest.testtest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="chemin" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.VertexTest" />
+      <option name="METHOD_NAME" value="testtest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -528,19 +563,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.VertexTest.testisConnectedTo" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.VertexTest.testisConnectedByOthers" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.VertexTest.testgetDistanceByOthers" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.GraphTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.GraphTest.testGetDistance" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.VertexTest.testgetDistanceByOthers" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.GraphTest.testGetDistance" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.VertexTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.GraphTest.testEmptyGraph" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.VertexTest.testtest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.GraphTest.testGetDistance" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.VertexTest" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.VertexTest.testgetDistanceByOthers" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.GraphTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.VertexTest.testisConnectedByOthers" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.VertexTest.testisConnectedTo" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.VertexTest.testtest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.GraphTest.testGetDistance" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.GraphTest.testEmptyGraph" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -575,34 +610,34 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="35" width="1486" height="1018" extended-state="0" />
+    <frame x="1420" y="-4" width="1867" height="1085" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929105" sideWeight="0.6717828" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3991462" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850778" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32657418" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18472221" sideWeight="0.6904232" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30957684" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1159978" sideWeight="0.72998935" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3991462" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27001068" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -673,47 +708,29 @@
     <entry file="file://$PROJECT_DIR$/src/main/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/GraphTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="39" selection-start="1511" selection-end="1511" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="67" column="21" selection-start="1972" selection-end="1972" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Vertex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="30" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
+        <state line="22" column="8" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1523#1532#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Edge.java">
+    <entry file="file://$PROJECT_DIR$/src/test/VertexTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="31" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Calcul_chemin/src/main/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="11" selection-start="629" selection-end="629" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/EdgeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
+        <state line="77" column="36" selection-start="2233" selection-end="2233" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -729,34 +746,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="5" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/GraphTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="21" selection-start="2479" selection-end="2479" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/VertexTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="36" selection-start="2233" selection-end="2233" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="49" column="39" selection-start="1511" selection-end="1511" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Vertex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="8" selection-start="1848" selection-end="1848" vertical-scroll-proportion="0.41722974">
+        <state line="22" column="30" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1523#1532#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Edge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="31" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-7-oracle/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="833" column="0" selection-start="30410" selection-end="30410" vertical-scroll-proportion="0.33282673">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/EdgeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="18" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Edge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="5" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Vertex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="5" selection-start="2214" selection-end="2214" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1523#1532#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="44" selection-start="725" selection-end="725" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/GraphTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="0" selection-start="1736" selection-end="1825" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/VertexTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="62" selection-start="2652" selection-end="2652" vertical-scroll-proportion="1.9604863">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

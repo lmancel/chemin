@@ -52,12 +52,7 @@ public class Vertex {
         }
         else {
             for (Edge liens : this.getEdges()) {
-                 if (liens.getTarget().isConnectedByOthers(target)) {
-                     return true;
-                 }
-                else {
-                     return false;
-                 }
+                return liens.getTarget().isConnectedByOthers(target);
             }
         }
         return false;
@@ -66,47 +61,26 @@ public class Vertex {
     public int getDistanceByOther(Vertex target) {
 
         int distance = 0;
-        List list_dist = new ArrayList();
-        List passedby = new ArrayList();
-        List way = new ArrayList();
 
-        way.add(this);
+        if (!this.getName().equals(target.getName())) {
+            List<Integer> list_dist = new ArrayList<Integer>();
 
-        if (this.isConnectedTo(target)){
-            distance +=this.getDistanceForTwoAdjacentVertices(target);
-            return distance;
-        }
-        else {
-            for (Edge liens : this.getEdges()) {
-                if (liens.getTarget().isConnectedByOthers(target)) {
-                    list_dist.add(liens.getDistance());
+            if (this.isConnectedTo(target)){
+                distance += this.getDistanceForTwoAdjacentVertices(target);
+            }
+            else {
+                for (Edge liens : this.getEdges()) {
 
-                }
-                /*if (liens.getTarget().isConnectedTo(target)) {
-
-                    distance += this.getDistanceForTwoAdjacentVertices(liens.getTarget()) + liens.getTarget().getDistanceForTwoAdjacentVertices(target);
-                    list_dist.add(distance);
-                    return (Integer) Collections.min(list_dist);
-                } */
-
-                /*else */if (liens.getTarget().isConnectedByOthers(target)) {
-                    if (passedby.contains(this) == false) {
-                        passedby.add(this);
-                        distance += this.getDistanceForTwoAdjacentVertices(liens.getTarget()) + liens.getTarget().getDistanceByOther(target);
-                        return distance;
+                    if (liens.getTarget().isConnectedByOthers(target)) {
+                        list_dist.add(this.getDistanceForTwoAdjacentVertices(liens.getTarget()) + liens.getTarget().getDistanceByOther(target));
                     }
                 }
+                if (!list_dist.isEmpty()) {
+                    distance += Collections.min(list_dist);
+                }
+                list_dist.clear();
             }
         }
-        return 0;
-    }
-
-
-
-    @Override
-    public String toString() {
-        return "Vertex{" +
-                "name='" + name  +
-                '}';
+        return distance;
     }
 }
